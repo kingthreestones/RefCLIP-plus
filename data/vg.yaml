@@ -1,0 +1,109 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./dataset/vg-yolov5  # dataset root dir
+train: images/train2014  # train images (relative to 'path') 128 images
+val: images/val2014  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes (80 COCO classes)
+names:
+  0: helmet
+  1: horse
+  2: shorts
+  3: jeans
+  4: man
+  5: shirt
+  6: car
+  7: beach
+  8: skateboard
+  9: woman
+  10: bicycle
+  11: pants
+  12: bike
+  13: table
+  14: orange
+  15: dog
+  16: hair
+  17: sign
+  18: girl
+  19: boat
+  20: glasses
+  21: snow
+  22: building
+  23: jacket
+  24: chair
+  25: water
+  26: head
+  27: floor
+  28: food
+  29: grass
+  30: boy
+  31: hat
+  32: backpack
+  33: wall
+  34: bench
+  35: tree
+  36: skateboarder
+  37: road
+  38: street
+  39: face
+  40: family
+  41: person
+  42: child
+  43: pool
+  44: hand
+  45: coat
+  46: sidewalk
+  47: mouth
+  48: window
+  49: crowd
+  50: dress
+  51: cap
+  52: boys
+  53: costume
+  54: statue
+  55: people
+  56: ball
+  57: pole
+  58: spectators
+  59: sunglasses
+  60: sweater
+  61: adult
+  62: vest
+  63: buildings
+  64: baseball
+  65: men
+  66: baby
+  67: toddler
+  68: beard
+  69: camera
+  70: women
+  71: girls
+  72: outfit
+  73: guy
+  74: hands
+  75: group
+  76: lot
+  77: lady
+  78: animals
+  79: rope
+  80: audience
+  81: worker
+  82: little girl
+  83: band
+  84: couple
+  85: fender
+  86: children
+  87: kayak
+  88: wood
+  89: mother
+  90: grass field
+  91: clothing
+  92: black
+  93: stick
+  94: back
+  95: tshirt
+  96: male
+  97: yellow
+  98: young man
+  99: microphone
+  
