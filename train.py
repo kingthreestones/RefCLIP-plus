@@ -120,8 +120,6 @@ def train_one_epoch(__C,
                         box_pred_stu = filtered_box_pred_stu[:, :4]
                         box_pred_stu = xyxy2xywhn(box_pred_stu, w=maxsize_new, h=maxsize_new)
                         loss_out, loss_in = net(filtered_image_iter, filtered_ref_iter, box_pred_stu, wei=wei)
-                        # if box_ap_base > 40:
-                        #     loss_out = 0 * loss_out
                         loss_stu = torch.zeros_like(loss_out).to(loss_out.device)
                         flag = 1
                         flag1 = 0
