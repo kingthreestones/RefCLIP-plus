@@ -43,9 +43,9 @@ pip install en_vectors_web_lg-2.1.0.tar.gz
 
 - Download images and Generate annotations according to [SimREC](https://github.com/luogen1996/SimREC/blob/main/DATA_PRE_README.md).
 
-- Download the pretrained weights of YoloV5 from [OneDrive](https://github.com/luogen1996/SimREC/blob/main/DATA_PRE_README.md).
+- Download the pretrained weights of YoloV5 from [OneDrive](https://1drv.ms/u/c/e41016e77138b546/EURIW6LMAJJOuNy5Bi_H34wBjUMCYijpv2faLthSdrZ2dw?e=FZhmeQ).
 
-- Download the pretrained weights of CSPDarkNet from [OneDrive](https://github.com/luogen1996/SimREC/blob/main/DATA_PRE_README.md).
+- Download the pretrained weights of CSPDarkNet from [OneDrive](https://1drv.ms/u/c/e41016e77138b546/ETCOQFZjjoJFvoH73hDqd_oBsG3W_d7GpMI7_IzVZ77hMg?e=6y0ZN8).
 
 
 The project structure should look like the following:
